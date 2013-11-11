@@ -1,10 +1,9 @@
 # NSFastEnumeration or Consequences
 
-- what it is
-- why it exists
+- what & why it is
 - how (and when) to call it
 - how (and when) to implement it
-- its limitations, and what you can do about them
+- its limitations, and to do about them
 
 ## What it is (10min)
 
@@ -27,7 +26,7 @@
 
 - (potentially) gets called multiple times
 
-## Using it (10min)
+## Using it (5min)
 
 - when should you call it?
 	- is `for(in)` enough?
@@ -36,7 +35,7 @@
 	- set up enumeration state
 	- check for mutations
 
-## Implementing it (20min)
+## Implementing it (10min)
 
 - what to put in the state
 	- fields are unsigned longs and pointers
