@@ -1,6 +1,7 @@
 #import <XCTest/XCTest.h>
 #import <NSFastEnumeration or Consequences/FibonacciStringEnumerator.h>
 #import <NSFastEnumeration or Consequences/MapEnumerator.h>
+#import <NSFastEnumeration or Consequences/NilEnumerator.h>
 
 @interface LazyEvaluationWithNSEnumeratorTests : XCTestCase
 @end
@@ -75,9 +76,39 @@
 
 // Example 9: producing nil
 
+-(void)testExample9ProducingNil {
+	
+	NSUInteger n = 0;
+	
+	for (id each in [[NilEnumerator alloc] initWithN:512]) {
+		n++;
+	}
+	
+	XCTAssertEqual(n, 512lu, @"");
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // Example 10: push-me-pull-you
+
+
 
 @end
