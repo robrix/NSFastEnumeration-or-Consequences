@@ -2,6 +2,7 @@
 
 #import <NSFastEnumeration or Consequences/DoubleArray.h>
 #import <NSFastEnumeration or Consequences/Point3D.h>
+#import <NSFastEnumeration or Consequences/HashedSparseArray.h>
 
 @interface ImplementingNSFastEnumerationTests : XCTestCase
 @end
@@ -73,7 +74,23 @@
 
 // Example 6: copying batches into buffer
 
-
+-(void)testExample6NSFastEnumerationImplementedByReturningOwnedObjectsInBatches {
+	
+	HashedSparseArray *array = [HashedSparseArray new];
+	array[4] = @"Four";
+	array[10] = @"Ten";
+	array[55] = @"Fifty-five";
+	array[30] = @"Thirty";
+	array[1] = @"One";
+	
+	NSMutableSet *indices = [NSMutableSet new];
+	for (NSNumber *index in array) {
+		[indices addObject:index];
+	}
+	
+	XCTAssertEqualObjects(indices, ([NSSet setWithArray:@[@1, @4, @10, @30, @55]]), @"");
+	
+}
 
 
 
