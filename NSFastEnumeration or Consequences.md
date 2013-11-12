@@ -26,10 +26,12 @@
 
 - (potentially) gets called multiple times
 
-## Using it (5min)
+## Calling it (5min)
 
 - when should you call it?
 	- is `for(in)` enough?
+	- maybe you need asynchrony
+	- or maybe you’re trying to compose it (mind the gap)
 
 - how to call it
 	- set up enumeration state
@@ -83,6 +85,7 @@
 		- you have to iterate the state yourself
 			- no high-level API exists to do the equivalent of `for(in)` step by step (that’s kind of the point)
 
+- therefore, maybe not the right API to use for expressing lazy evaluation (like generators)
 
 ## Alternatives (10min)
 
