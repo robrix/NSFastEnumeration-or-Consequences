@@ -104,32 +104,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-// Example 7: generating temporaries*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @end
