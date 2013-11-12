@@ -23,6 +23,9 @@
 		D4B70FB21832BEF4006CA0D7 /* Point3D.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FB01832BEF4006CA0D7 /* Point3D.m */; };
 		D4B70FB91832C7F2006CA0D7 /* HashedSparseArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FB71832C7F2006CA0D7 /* HashedSparseArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4B70FBA1832C7F2006CA0D7 /* HashedSparseArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FB81832C7F2006CA0D7 /* HashedSparseArray.m */; };
+		D4B70FBD1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FBC1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m */; };
+		D4B70FC41832D4F6006CA0D7 /* FibonacciStringEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B70FC51832D4F6006CA0D7 /* FibonacciStringEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		D4B70FB01832BEF4006CA0D7 /* Point3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point3D.m; sourceTree = "<group>"; };
 		D4B70FB71832C7F2006CA0D7 /* HashedSparseArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashedSparseArray.h; sourceTree = "<group>"; };
 		D4B70FB81832C7F2006CA0D7 /* HashedSparseArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashedSparseArray.m; sourceTree = "<group>"; };
+		D4B70FBC1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyEvaluationWithNSEnumeratorTests.m; sourceTree = "<group>"; };
+		D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibonacciStringEnumerator.h; sourceTree = "<group>"; };
+		D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciStringEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,8 @@
 				D4B70FB01832BEF4006CA0D7 /* Point3D.m */,
 				D4B70FB71832C7F2006CA0D7 /* HashedSparseArray.h */,
 				D4B70FB81832C7F2006CA0D7 /* HashedSparseArray.m */,
+				D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */,
+				D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */,
 				D4B70F7B18329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or Consequences";
@@ -152,6 +160,7 @@
 			children = (
 				D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */,
 				D4B70FA51832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m */,
+				D4B70FBC1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m */,
 				D4B70F9018329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or ConsequencesTests";
@@ -176,6 +185,7 @@
 				D4B70FB11832BEF4006CA0D7 /* Point3D.h in Headers */,
 				D4B70FA31832B082006CA0D7 /* Average.h in Headers */,
 				D4B70FA91832BD70006CA0D7 /* DoubleArray.h in Headers */,
+				D4B70FC41832D4F6006CA0D7 /* FibonacciStringEnumerator.h in Headers */,
 				D4B70FB91832C7F2006CA0D7 /* HashedSparseArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +288,7 @@
 				D4B70FBA1832C7F2006CA0D7 /* HashedSparseArray.m in Sources */,
 				D4B70FB21832BEF4006CA0D7 /* Point3D.m in Sources */,
 				D4B70FAA1832BD70006CA0D7 /* DoubleArray.m in Sources */,
+				D4B70FC51832D4F6006CA0D7 /* FibonacciStringEnumerator.m in Sources */,
 				D4B70FA41832B082006CA0D7 /* Average.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +299,7 @@
 			files = (
 				D4B70FA01832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m in Sources */,
 				D4B70FA61832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m in Sources */,
+				D4B70FBD1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
