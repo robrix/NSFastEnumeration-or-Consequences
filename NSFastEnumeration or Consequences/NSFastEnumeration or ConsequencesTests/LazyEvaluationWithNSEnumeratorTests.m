@@ -2,8 +2,11 @@
 #import <NSFastEnumeration or Consequences/FibonacciStringEnumerator.h>
 #import <NSFastEnumeration or Consequences/MapEnumerator.h>
 #import <NSFastEnumeration or Consequences/NilEnumerator.h>
+#import <NSFastEnumeration or Consequences/PushEnumerator.h>
 
 @interface LazyEvaluationWithNSEnumeratorTests : XCTestCase
+@property (nonatomic) PushEnumerator *queue;
+@property (nonatomic) NSArray *dequeued;
 @end
 
 @implementation LazyEvaluationWithNSEnumeratorTests
@@ -21,6 +24,19 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Example 7: generating temporaries
 
 -(void)testExample7GeneratingTemporariesWithAnEnumerator {
@@ -30,6 +46,11 @@
 	XCTAssertEqualObjects(strings, (@[@"1", @"11", @"112", @"1123", @"11235", @"112358", @"11235813", @"1123581321"]), @"");
 	
 }
+
+
+
+
+
 
 
 
@@ -107,8 +128,41 @@
 
 
 
+
 // Example 10: push-me-pull-you
 
+static void *Example10ContextPointer = &Example10ContextPointer;
 
+-(void)testExample10BufferingAndRetrievingObjects {
+	
+	self.queue = [PushEnumerator new];
+	
+	[self.queue addObserver:self forKeyPath:@"currentObject" options:0 context:Example10ContextPointer];
+	
+	[self.queue pushObject:@1];
+	XCTAssertEqualObjects(self.dequeued, @[@1], @"");
+	
+	[self.queue pushObjectsInArray:@[@"one", @"two", @"three"]];
+	XCTAssertEqualObjects(self.dequeued, (@[@"one", @"two", @"three"]), @"");
+	
+	[self.queue removeObserver:self forKeyPath:@"currentObject" context:Example10ContextPointer];
+	
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	if (context == Example10ContextPointer) {
+		
+		NSMutableArray *dequeued = [NSMutableArray new];
+		
+		for (id each in self.queue) {
+			[dequeued addObject:each];
+		}
+		
+		self.dequeued = dequeued;
+		
+	} else {
+		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+	}
+}
 
 @end

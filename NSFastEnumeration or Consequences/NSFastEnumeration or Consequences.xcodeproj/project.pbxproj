@@ -30,6 +30,8 @@
 		D4B70FC91832D79B006CA0D7 /* MapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */; };
 		D4B70FCC1832D98D006CA0D7 /* NilEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FCA1832D98D006CA0D7 /* NilEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4B70FCD1832D98D006CA0D7 /* NilEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FCB1832D98D006CA0D7 /* NilEnumerator.m */; };
+		D4B70FD41832DB3E006CA0D7 /* PushEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FD21832DB3E006CA0D7 /* PushEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B70FD51832DB3E006CA0D7 /* PushEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FD31832DB3E006CA0D7 /* PushEnumerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEnumerator.m; sourceTree = "<group>"; };
 		D4B70FCA1832D98D006CA0D7 /* NilEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilEnumerator.h; sourceTree = "<group>"; };
 		D4B70FCB1832D98D006CA0D7 /* NilEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NilEnumerator.m; sourceTree = "<group>"; };
+		D4B70FD21832DB3E006CA0D7 /* PushEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushEnumerator.h; sourceTree = "<group>"; };
+		D4B70FD31832DB3E006CA0D7 /* PushEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 				D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */,
 				D4B70FCA1832D98D006CA0D7 /* NilEnumerator.h */,
 				D4B70FCB1832D98D006CA0D7 /* NilEnumerator.m */,
+				D4B70FD21832DB3E006CA0D7 /* PushEnumerator.h */,
+				D4B70FD31832DB3E006CA0D7 /* PushEnumerator.m */,
 				D4B70F7B18329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or Consequences";
@@ -194,6 +200,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B70FD41832DB3E006CA0D7 /* PushEnumerator.h in Headers */,
 				D4B70FB11832BEF4006CA0D7 /* Point3D.h in Headers */,
 				D4B70FC81832D79B006CA0D7 /* MapEnumerator.h in Headers */,
 				D4B70FA31832B082006CA0D7 /* Average.h in Headers */,
@@ -304,6 +311,7 @@
 				D4B70FB21832BEF4006CA0D7 /* Point3D.m in Sources */,
 				D4B70FAA1832BD70006CA0D7 /* DoubleArray.m in Sources */,
 				D4B70FC51832D4F6006CA0D7 /* FibonacciStringEnumerator.m in Sources */,
+				D4B70FD51832DB3E006CA0D7 /* PushEnumerator.m in Sources */,
 				D4B70FC91832D79B006CA0D7 /* MapEnumerator.m in Sources */,
 				D4B70FA41832B082006CA0D7 /* Average.m in Sources */,
 			);
