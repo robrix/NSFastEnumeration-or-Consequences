@@ -26,6 +26,8 @@
 		D4B70FBD1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FBC1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m */; };
 		D4B70FC41832D4F6006CA0D7 /* FibonacciStringEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4B70FC51832D4F6006CA0D7 /* FibonacciStringEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */; };
+		D4B70FC81832D79B006CA0D7 /* MapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FC61832D79B006CA0D7 /* MapEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B70FC91832D79B006CA0D7 /* MapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		D4B70FBC1832D467006CA0D7 /* LazyEvaluationWithNSEnumeratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyEvaluationWithNSEnumeratorTests.m; sourceTree = "<group>"; };
 		D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibonacciStringEnumerator.h; sourceTree = "<group>"; };
 		D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciStringEnumerator.m; sourceTree = "<group>"; };
+		D4B70FC61832D79B006CA0D7 /* MapEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapEnumerator.h; sourceTree = "<group>"; };
+		D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				D4B70FB81832C7F2006CA0D7 /* HashedSparseArray.m */,
 				D4B70FC21832D4F6006CA0D7 /* FibonacciStringEnumerator.h */,
 				D4B70FC31832D4F6006CA0D7 /* FibonacciStringEnumerator.m */,
+				D4B70FC61832D79B006CA0D7 /* MapEnumerator.h */,
+				D4B70FC71832D79B006CA0D7 /* MapEnumerator.m */,
 				D4B70F7B18329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or Consequences";
@@ -183,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B70FB11832BEF4006CA0D7 /* Point3D.h in Headers */,
+				D4B70FC81832D79B006CA0D7 /* MapEnumerator.h in Headers */,
 				D4B70FA31832B082006CA0D7 /* Average.h in Headers */,
 				D4B70FA91832BD70006CA0D7 /* DoubleArray.h in Headers */,
 				D4B70FC41832D4F6006CA0D7 /* FibonacciStringEnumerator.h in Headers */,
@@ -289,6 +296,7 @@
 				D4B70FB21832BEF4006CA0D7 /* Point3D.m in Sources */,
 				D4B70FAA1832BD70006CA0D7 /* DoubleArray.m in Sources */,
 				D4B70FC51832D4F6006CA0D7 /* FibonacciStringEnumerator.m in Sources */,
+				D4B70FC91832D79B006CA0D7 /* MapEnumerator.m in Sources */,
 				D4B70FA41832B082006CA0D7 /* Average.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
