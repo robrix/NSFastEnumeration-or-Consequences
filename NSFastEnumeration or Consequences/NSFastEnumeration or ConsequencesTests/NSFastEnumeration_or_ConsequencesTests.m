@@ -9,7 +9,6 @@
 #import <XCTest/XCTest.h>
 
 @interface NSFastEnumeration_or_ConsequencesTests : XCTestCase
-
 @end
 
 @implementation NSFastEnumeration_or_ConsequencesTests
