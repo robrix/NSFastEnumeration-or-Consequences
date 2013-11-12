@@ -87,6 +87,8 @@
 
 - therefore, maybe not the right API to use for expressing lazy evaluation (like generators)
 
+- does not push
+
 ## Alternatives (10min)
 
 - `NSFastEnumeration` is best used for serial, synchronous iteration of extant objects
@@ -98,4 +100,4 @@
 
 - (recursive) enumeration of a linked list
 
-- 
+- pushing via NSNotification, KVO, or delegation
