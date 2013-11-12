@@ -16,6 +16,9 @@
 		D4B70FA01832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */; };
 		D4B70FA31832B082006CA0D7 /* Average.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FA11832B082006CA0D7 /* Average.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4B70FA41832B082006CA0D7 /* Average.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FA21832B082006CA0D7 /* Average.m */; };
+		D4B70FA61832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FA51832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m */; };
+		D4B70FA91832BD70006CA0D7 /* DoubleArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FA71832BD70006CA0D7 /* DoubleArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B70FAA1832BD70006CA0D7 /* DoubleArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FA81832BD70006CA0D7 /* DoubleArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingNSFastEnumerationManuallyTests.m; sourceTree = "<group>"; };
 		D4B70FA11832B082006CA0D7 /* Average.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Average.h; sourceTree = "<group>"; };
 		D4B70FA21832B082006CA0D7 /* Average.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Average.m; sourceTree = "<group>"; };
+		D4B70FA51832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplementingNSFastEnumerationTests.m; sourceTree = "<group>"; };
+		D4B70FA71832BD70006CA0D7 /* DoubleArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleArray.h; sourceTree = "<group>"; };
+		D4B70FA81832BD70006CA0D7 /* DoubleArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 			children = (
 				D4B70FA11832B082006CA0D7 /* Average.h */,
 				D4B70FA21832B082006CA0D7 /* Average.m */,
+				D4B70FA71832BD70006CA0D7 /* DoubleArray.h */,
+				D4B70FA81832BD70006CA0D7 /* DoubleArray.m */,
 				D4B70F7B18329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or Consequences";
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */,
+				D4B70FA51832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m */,
 				D4B70F9018329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or ConsequencesTests";
@@ -153,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B70FA31832B082006CA0D7 /* Average.h in Headers */,
+				D4B70FA91832BD70006CA0D7 /* DoubleArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B70FAA1832BD70006CA0D7 /* DoubleArray.m in Sources */,
 				D4B70FA41832B082006CA0D7 /* Average.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B70FA01832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m in Sources */,
+				D4B70FA61832BC0E006CA0D7 /* ImplementingNSFastEnumerationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
