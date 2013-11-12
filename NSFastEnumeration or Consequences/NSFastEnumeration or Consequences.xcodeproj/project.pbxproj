@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		D4B70F7518329A48006CA0D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B70F7418329A48006CA0D7 /* Cocoa.framework */; };
 		D4B70F7F18329A48006CA0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4B70F7D18329A48006CA0D7 /* InfoPlist.strings */; };
-		D4B70F8318329A48006CA0D7 /* NSFastEnumeration_or_Consequences.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70F8218329A48006CA0D7 /* NSFastEnumeration_or_Consequences.m */; };
 		D4B70F8A18329A48006CA0D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B70F8918329A48006CA0D7 /* XCTest.framework */; };
 		D4B70F8B18329A48006CA0D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B70F7418329A48006CA0D7 /* Cocoa.framework */; };
 		D4B70F8E18329A48006CA0D7 /* NSFastEnumeration or Consequences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B70F7118329A48006CA0D7 /* NSFastEnumeration or Consequences.framework */; };
 		D4B70F9418329A48006CA0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4B70F9218329A48006CA0D7 /* InfoPlist.strings */; };
-		D4B70F9618329A48006CA0D7 /* NSFastEnumeration_or_ConsequencesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70F9518329A48006CA0D7 /* NSFastEnumeration_or_ConsequencesTests.m */; };
+		D4B70FA01832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */; };
+		D4B70FA31832B082006CA0D7 /* Average.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B70FA11832B082006CA0D7 /* Average.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B70FA41832B082006CA0D7 /* Average.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B70FA21832B082006CA0D7 /* Average.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +37,13 @@
 		D4B70F7C18329A48006CA0D7 /* NSFastEnumeration or Consequences-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSFastEnumeration or Consequences-Info.plist"; sourceTree = "<group>"; };
 		D4B70F7E18329A48006CA0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4B70F8018329A48006CA0D7 /* NSFastEnumeration or Consequences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFastEnumeration or Consequences-Prefix.pch"; sourceTree = "<group>"; };
-		D4B70F8118329A48006CA0D7 /* NSFastEnumeration_or_Consequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSFastEnumeration_or_Consequences.h; sourceTree = "<group>"; };
-		D4B70F8218329A48006CA0D7 /* NSFastEnumeration_or_Consequences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSFastEnumeration_or_Consequences.m; sourceTree = "<group>"; };
 		D4B70F8818329A48006CA0D7 /* NSFastEnumeration or ConsequencesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSFastEnumeration or ConsequencesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B70F8918329A48006CA0D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D4B70F9118329A48006CA0D7 /* NSFastEnumeration or ConsequencesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSFastEnumeration or ConsequencesTests-Info.plist"; sourceTree = "<group>"; };
 		D4B70F9318329A48006CA0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D4B70F9518329A48006CA0D7 /* NSFastEnumeration_or_ConsequencesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSFastEnumeration_or_ConsequencesTests.m; sourceTree = "<group>"; };
+		D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingNSFastEnumerationManuallyTests.m; sourceTree = "<group>"; };
+		D4B70FA11832B082006CA0D7 /* Average.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Average.h; sourceTree = "<group>"; };
+		D4B70FA21832B082006CA0D7 /* Average.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Average.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +110,8 @@
 		D4B70F7A18329A48006CA0D7 /* NSFastEnumeration or Consequences */ = {
 			isa = PBXGroup;
 			children = (
-				D4B70F8118329A48006CA0D7 /* NSFastEnumeration_or_Consequences.h */,
-				D4B70F8218329A48006CA0D7 /* NSFastEnumeration_or_Consequences.m */,
+				D4B70FA11832B082006CA0D7 /* Average.h */,
+				D4B70FA21832B082006CA0D7 /* Average.m */,
 				D4B70F7B18329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or Consequences";
@@ -129,7 +130,7 @@
 		D4B70F8F18329A48006CA0D7 /* NSFastEnumeration or ConsequencesTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4B70F9518329A48006CA0D7 /* NSFastEnumeration_or_ConsequencesTests.m */,
+				D4B70F9F1832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m */,
 				D4B70F9018329A48006CA0D7 /* Supporting Files */,
 			);
 			path = "NSFastEnumeration or ConsequencesTests";
@@ -151,6 +152,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B70FA31832B082006CA0D7 /* Average.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B70F8318329A48006CA0D7 /* NSFastEnumeration_or_Consequences.m in Sources */,
+				D4B70FA41832B082006CA0D7 /* Average.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B70F9618329A48006CA0D7 /* NSFastEnumeration_or_ConsequencesTests.m in Sources */,
+				D4B70FA01832ABE1006CA0D7 /* CallingNSFastEnumerationManuallyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +394,6 @@
 		D4B70F9D18329A48006CA0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSFastEnumeration or Consequences.framework/Versions/A/NSFastEnumeration or Consequences";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -406,7 +407,6 @@
 				);
 				INFOPLIST_FILE = "NSFastEnumeration or ConsequencesTests/NSFastEnumeration or ConsequencesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -414,7 +414,6 @@
 		D4B70F9E18329A48006CA0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSFastEnumeration or Consequences.framework/Versions/A/NSFastEnumeration or Consequences";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -424,7 +423,6 @@
 				GCC_PREFIX_HEADER = "NSFastEnumeration or Consequences/NSFastEnumeration or Consequences-Prefix.pch";
 				INFOPLIST_FILE = "NSFastEnumeration or ConsequencesTests/NSFastEnumeration or ConsequencesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
